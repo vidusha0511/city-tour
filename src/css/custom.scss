@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$mainBlack: rgb(19, 10, 10);
+$mainGreen: rgb(27, 202, 11);
+$mainWhite: rgba(255, 255, 255, 0.801);
+$mainGrey: rgb(145, 126, 126);
+
+body{
+    font-family: 'Acme', sans-serif;
+    background: $mainWhite;
+    color: $mainBlack;
+}

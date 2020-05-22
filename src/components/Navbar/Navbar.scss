@@ -1,0 +1,32 @@
+@import '../../css/custom.scss';
+
+.navbar{
+    background: $mainGreen;
+    color: $mainWhite;
+    padding: 0.5rem 1rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.nav-links{
+    align-self: center;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.nav-link{
+    color: $mainBlack;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: all 0.2s linear;
+    &:hover{
+        color: $mainWhite;
+    }
+}
+
+.active{
+    color: rgb(20, 19, 124);
+}
